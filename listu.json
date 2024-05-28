@@ -1,45 +1,30 @@
-{
-  "SystemId": "ETAX",
-  "ApiConnection": {
-    "CBSAPI": {
-      "SystemId": "CBS",
-      "BaseUrl": "http://cbsurl:8080/",
-      "cbsKeyX": "zJbwpKxjNuB4HJbmBYtioFDvfP1kWsxuwPMlAM_Xkic",
-      "cbsKeyY": "JDSze4cAzB3zrmKnJx1m0fhCqZhJTAalwiLQ-53jpUY",
-      "eTaxKeyX": "e7AznQGcCYiK6dGOiiWGTD1VnCc7htVVTMxB1hlkKBQ",
-      "eTaxKeyY": "mwf4GGPE9nuD7sq1M62Trbp-JKIMLPSH6hokehZpGUI",
-      "eTaxKeyD": "B-JrF3fbpC8Q2wjRaWQxD__Z8c7QaYAUgaeLNv2aVa4"
-    },
-    "eTaxAPI": {
-      "SystemId": "ETAXGATEWAY",
-      "BaseUrl": "http://gatewayurl:8080/"
-    }
+[
+  {
+    "id": 1,
+    "name": "Chi nhánh - Lê Thánh Tôn",
+    "districtId": "districtId",
+    "rating": 4.5,
+    "location": "sân tennis 1",
+    "address": "15A Lê Thánh Tôn, Quận 1, Hồ Chí Minh",
+    "views": 100,
+    "image": "",
+    "hours": "18h",
+    "days": "2024.05.28",
+    "hotline": "0123 456 789",
+    "map": ""
   },
-  "AuthServer": {
-    "Authority": "https://sso.techplus.vn/auth/realms/eTax/",
-    "RequireHttpsMetadata": "false",
-    "ClientId": "eTaxAdminPortal",
-    "ClientSecret": "oDCPkRYFnrVN9TFumUhxgW85ItCt7Xu6",
-    "SwaggerClientId": "eTaxAdminPortal_Swagger",
-    "SwaggerClientSecret": "UYgmdsGG5GmFbBrLtwszkC33T0AdZ3pV",
-    "IsOnProd": "false",
-    "MetaAddress": "https://sso.techplus.vn/auth/realms/eTax/.well-known/openid-configuration",
-    "ClaimMappings": {
-      "role": "role"
-    }
-  },
-  "StringEncryption": {
-    "DefaultPassPhrase": "yEgYfHaIcIkAuV1B"
-  },
-  "Settings": {
-    "Abp.Mailing.Smtp.Host": "smtp.mailgun.org",
-    "Abp.Mailing.Smtp.Port": "25",
-    "Abp.Mailing.Smtp.UserName": "postmaster@sandboxdbaad1a6178147f2a3e8a87d31e972a3.mailgun.org",
-    "Abp.Mailing.Smtp.Password": "xY1u+2qMn5AKaNvKxuynaCOL/lnseAIY52/9CDHfPDK0QaoapvJT9hc8WpozAbrVK+HKOwbGLuhSrXPSAeUCgw==",
-    "Abp.Mailing.Smtp.Domain": "",
-    "Abp.Mailing.Smtp.EnableSsl": "true",
-    "Abp.Mailing.Smtp.UseDefaultCredentials": "false",
-    "Abp.Mailing.DefaultFromAddress": "hieu.nguyen@techplus.vn",
-    "Abp.Mailing.DefaultFromDisplayName": "eTax application"
+  {
+    "id": 2,
+    "name": "Chi nhánh - Lê Thánh Tôn2",
+    "districtId": "districtId2",
+    "rating": 4.5,
+    "location": "sân tennis 2",
+    "address": "15A Lê Thánh Tôn, Quận 1, Hồ Chí Minh",
+    "views": 100,
+    "image": "",
+    "hours": "18h",
+    "days": "2024.05.28",
+    "hotline": "0123 456 789",
+    "map": ""
   }
-}
+]
